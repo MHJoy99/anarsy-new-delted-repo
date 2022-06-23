@@ -4,7 +4,7 @@ from bot import CMD_INDEX
 class _BotCommands:
     def __init__(self):
         self.StartCommand = f'start{CMD_INDEX}'
-        self.MirrorCommand = f'mirror{CMD_INDEX}'
+        self.MirrorCommand = f'mirror2{CMD_INDEX}'
         self.UnzipMirrorCommand = f'unzipmirror{CMD_INDEX}'
         self.ZipMirrorCommand = f'zipmirror{CMD_INDEX}'
         self.CancelMirror = f'cancel{CMD_INDEX}'
@@ -26,7 +26,7 @@ class _BotCommands:
         self.CountCommand = f'count{CMD_INDEX}'
         self.WatchCommand = f'watch{CMD_INDEX}'
         self.ZipWatchCommand = f'zipwatch{CMD_INDEX}'
-        self.QbMirrorCommand = f'qbmirror{CMD_INDEX}'
+        self.QbMirrorCommand = f'qbmirror2{CMD_INDEX}'
         self.QbUnzipMirrorCommand = f'qbunzipmirror{CMD_INDEX}'
         self.QbZipMirrorCommand = f'qbzipmirror{CMD_INDEX}'
         self.DeleteCommand = f'del{CMD_INDEX}'
@@ -37,7 +37,7 @@ class _BotCommands:
         self.LeechCommand = f'leech{CMD_INDEX}'
         self.UnzipLeechCommand = f'unzipleech{CMD_INDEX}'
         self.ZipLeechCommand = f'zipleech{CMD_INDEX}'
-        self.QbLeechCommand = f'qbleech{CMD_INDEX}'
+        self.QbLeechCommand = f'qbmirror{CMD_INDEX}'
         self.QbUnzipLeechCommand = f'qbunzipleech{CMD_INDEX}'
         self.QbZipLeechCommand = f'qbzipleech{CMD_INDEX}'
         self.LeechWatchCommand = f'leechwatch{CMD_INDEX}'
